@@ -4,7 +4,7 @@ Arduino mega 2560 with TFT, alarm clock, humidity control, heat, automatic brigh
 
 
 Prezentare Generală a Proiectului:
-#Stație Meteo
+# Stație Meteo
 Programul integrează diverși senzori și periferice pentru a măsura, afișa și reacționa la condițiile de mediu, cum ar fi temperatura, umiditatea și luminozitatea. Interfața principală este un ecran tactil color.
 # 1. Librării și Dependențe
 Codul utilizează o suită robustă de librării standard Arduino și dedicate:
