@@ -95,7 +95,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 int buzzer = 22; //buzzer to arduino pin 22
 
-const int buttonPin = 23;    // the number of the pushbutton pin
+const int buttonPin = 23;    // the number of the pushbutton pin. Button to turn off Relay pin 24 if rh < 81
 const int buttonPinAL = 31;
 int buttonState = 0;         // variable for reading the pushbutton status
 int buttonStateAL = 0;
@@ -663,7 +663,7 @@ digitalWrite(RELAY_RH,0);//OUT ON
 
 //Button off RELAY RH
 
-buttonState = digitalRead(buttonPin);
+buttonState = digitalRead(buttonPin);//Button to turn off Relay pin 24 if rh < 81
 if (buttonState == HIGH && rh<81) {
 Serial.println("pin24 ON-RH-B7");
 // turn LED on:
