@@ -27,7 +27,7 @@ RELAY_TH (Pin 25): Releu pentru controlul temperaturii (ex: încălzitor/răcito
 buttonPin (Pin 23): Buton pentru oprirea Releu pin 24 daca RH < 81 (oprire forțată dezumidificator).
 
 buttonPinAL (Pin 31): Buton dedicat pentru alarmă.
-Afișaj: Ecran tactil color TFT (MCUFRIEND_kbv), cu ID-uri posibile 0x9486/87 sau 0x7523.
+
 # 3. Funcționalități Principale
 Codul demonstrează o serie de funcții avansate:
 # A. Ecran de Încărcare (Splash Screen)
